@@ -26,7 +26,7 @@
         <td>{{$articulo->precio}}</td>
         <td>
          <form action="{{ route('articulos.destroy',$articulo->id) }}" method="POST">
-          <a href="http://localhost/Laravel/laravel8crud-master/server.php/articulos/{{$articulo->id}}/edit" class="btn btn-info">Editar</a>
+          <a href="http://localhost/Laravel/crud-lis-laravel/server.php/articulos/{{$articulo->id}}/edit" class="btn btn-info">Editar</a>
               @csrf
               @method('DELETE')
           <button type="submit" class="btn btn-danger">Delete</button>

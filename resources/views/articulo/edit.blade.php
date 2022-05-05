@@ -20,7 +20,7 @@
     <label for="" class="form-label">Precio</label>
     <input id="precio" name="precio" type="number" step="any" class="form-control" value="{{$articulo->precio}}">
   </div>
-  <a href="http://localhost/Laravel/laravel8crud-master/server.php/articulos" class="btn btn-secondary">Cancelar</a>
+  <a href="http://localhost/Laravel/crud-lis-laravel/server.php/articulos" class="btn btn-secondary">Cancelar</a>
   @csrf
   @method('PUT')
   <button type="submit" class="btn btn-primary">Guardar</button>
